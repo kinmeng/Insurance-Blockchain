@@ -12,6 +12,7 @@ npm install -g truffle
 3. Install Ganache
 4. Setup the necessary flask modules
 5. Every other modules should be in requirements.txt
+6. Run pip3 install web3
 
 <h2> Setup environment </h2>
 
