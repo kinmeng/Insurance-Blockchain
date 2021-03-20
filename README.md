@@ -22,7 +22,7 @@ npm install -g truffle
 Three main parts to modify this project:
 1.Create solidity project file, put in the folder ./contracts (make sure it's tested on remix)
 2. If it's the first time you are using truffle, run truffle init
-S3. Subsequently, simply run "truffle compile" and "truffle migrate" which will create a JS deployment file which you do not need to edit
+3. Subsequently, simply run "truffle compile" and "truffle migrate" which will create a JS deployment file which you do not need to edit
 
 Now, run flask by issuing the command python3 insurance.py
 
