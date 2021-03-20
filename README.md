@@ -19,11 +19,6 @@ npm install -g truffle
 4. Setup the necessary flask modules 
 5. Run pip3 install web3
 
-<h2> Setup environment </h2>
-
-Create your python environment
-Then run pip install -r requirements.txt (do not do this step anymore as it does not work) - simply run the file insurance.py and install any modules which are required to run the file
-
 Three main parts to modify this project:
 1.Create solidity project file, put in the folder ./contracts (make sure it's tested on remix)
 2. If it's the first time you are using truffle, run truffle init
@@ -32,8 +27,8 @@ S3. Subsequently, simply run truffle compile and truffle migrate > which will cr
 Now, run flask by issuing the command python3 insurance.py
 
 Take note:
-
-To find an address or key for use, you need to replace the address with your own live address from Ganache.
+1. Everytime Ganache is restarted, you should change the private key address in the insurance.py file
+2. To find a key for use, you need to replace the address with your own private key from Ganache.
 Open up Ganache > for each ADDRESS you can find a corresponding key icon on the right. Click on it and you will find a private key. Replace the key where appropriate in the code
 
 
