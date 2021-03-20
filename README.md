@@ -12,7 +12,7 @@ source <env_name>/bin/activate to activate virtual environment
 Setup instructions:
 Major modules required for this project
 1. Install NodeJS (https://nodejs.org/en/) used for compilation
-https://www.geeksforgeeks.org/installation-of-node-js-on-linux/
+Installation guide: https://www.geeksforgeeks.org/installation-of-node-js-on-linux/
 3. Install Truffle
 npm install -g truffle
 3. Install Ganache
@@ -22,7 +22,7 @@ npm install -g truffle
 Three main parts to modify this project:
 1.Create solidity project file, put in the folder ./contracts (make sure it's tested on remix)
 2. If it's the first time you are using truffle, run truffle init
-S3. Subsequently, simply run truffle compile and truffle migrate > which will create a JS deployment file which you do not need to edit
+S3. Subsequently, simply run "truffle compile" and "truffle migrate" which will create a JS deployment file which you do not need to edit
 
 Now, run flask by issuing the command python3 insurance.py
 
