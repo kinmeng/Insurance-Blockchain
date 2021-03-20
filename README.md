@@ -10,7 +10,7 @@ Setup instructions:
 2. Install Truffle
 npm install -g truffle
 3. Install Ganache
-4. Setup the necessary flask modules
+4. Setup the necessary flask modules (python3 -m venv awesome_venv)
 5. Every other modules should be in requirements.txt
 6. Run pip3 install web3
 
